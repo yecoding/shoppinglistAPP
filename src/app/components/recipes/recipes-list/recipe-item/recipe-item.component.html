@@ -1,0 +1,7 @@
+<a href="#" (click)='getRecipeDetail()'>
+	<div>
+		<h5 class="mb-1">{{recipe.name}}</h5>
+	</div>
+	<p class="mb-1">{{recipe.description}}</p>
+	<img [src]="recipe.imagePath" alt="{{recipe.name}}" class="img-thumbnail float-right item-image">
+</a>

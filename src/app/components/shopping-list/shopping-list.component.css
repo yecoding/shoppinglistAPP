@@ -1,0 +1,7 @@
+div{
+	display: block;
+}
+
+h5, p{
+	display: inline-block;
+}
